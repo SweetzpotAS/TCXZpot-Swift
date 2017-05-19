@@ -10,6 +10,7 @@
 		113683E31ECEEBFC008E7D93 /* TCXZpot-Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113683D91ECEEBFC008E7D93 /* TCXZpot-Swift.framework */; };
 		113683E81ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */; };
 		113683EA1ECEEBFC008E7D93 /* TCXZpot-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F31ECEEC61008E7D93 /* Serializer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		113683E21ECEEBFC008E7D93 /* TCXZpot-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCXZpot-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCXZpot_SwiftTests.swift; sourceTree = "<group>"; };
 		113683E91ECEEBFC008E7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113683F31ECEEC61008E7D93 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */,
 				113683DD1ECEEBFC008E7D93 /* Info.plist */,
+				113683F31ECEEC61008E7D93 /* Serializer.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -144,11 +147,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Tomás Ruiz-López";
+				ORGANIZATIONNAME = SweetZpot;
 				TargetAttributes = {
 					113683D81ECEEBFC008E7D93 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = L7RXC8SZH2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					113683E11ECEEBFC008E7D93 = {
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +329,7 @@
 		113683EE1ECEEBFC008E7D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L7RXC8SZH2;
@@ -336,6 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sweetzpot.TCXZpot-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -343,6 +350,7 @@
 		113683EF1ECEEBFC008E7D93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L7RXC8SZH2;
@@ -362,6 +370,7 @@
 		113683F11ECEEBFC008E7D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L7RXC8SZH2;
 				INFOPLIST_FILE = "TCXZpot-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +383,7 @@
 		113683F21ECEEBFC008E7D93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L7RXC8SZH2;
 				INFOPLIST_FILE = "TCXZpot-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
