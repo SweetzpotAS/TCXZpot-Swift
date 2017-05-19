@@ -15,6 +15,8 @@
 		113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F91ECEF4CB008E7D93 /* BuildType.swift */; };
 		113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */; };
 		113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683FE1ECEF911008E7D93 /* MockSerializer.swift */; };
+		113684031ECEFC02008E7D93 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684011ECEFAEF008E7D93 /* Version.swift */; };
+		113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684041ECEFCD8008E7D93 /* VersionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		113683F91ECEF4CB008E7D93 /* BuildType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildType.swift; sourceTree = "<group>"; };
 		113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTypeTest.swift; sourceTree = "<group>"; };
 		113683FE1ECEF911008E7D93 /* MockSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSerializer.swift; sourceTree = "<group>"; };
+		113684011ECEFAEF008E7D93 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		113684041ECEFCD8008E7D93 /* VersionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 				113683F51ECEF320008E7D93 /* TCXSerializable.swift */,
 				113683F71ECEF383008E7D93 /* AbstractSource.swift */,
 				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
+				113684011ECEFAEF008E7D93 /* Version.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 				113683FD1ECEF904008E7D93 /* Mocks */,
 				113683E91ECEEBFC008E7D93 /* Info.plist */,
 				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
+				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
+				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
@@ -234,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */,
+				113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

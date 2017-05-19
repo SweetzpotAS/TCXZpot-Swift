@@ -16,7 +16,7 @@ class BuildTypeTest: XCTestCase {
         
         BuildType.Release.serialize(to: serializer)
         
-        XCTAssertEqual("<Type>Release</Type>", serializer.printed)
+        XCTAssertTrue(serializer.hasPrinted("<Type>Release</Type>"))
     }
     
 }

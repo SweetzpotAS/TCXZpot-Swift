@@ -10,9 +10,13 @@ import Foundation
 @testable import TCXZpot
 
 class MockSerializer : Serializer {
-    var printed : String = ""
+    private var printed : [String] = []
     
     func print(line : String) {
-        self.printed = line
+        self.printed.append(line)
+    }
+    
+    func hasPrinted(_ line : String) -> Bool {
+        return self.printed.contains(line)
     }
 }
