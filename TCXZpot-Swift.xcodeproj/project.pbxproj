@@ -11,6 +11,7 @@
 		113683E81ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */; };
 		113683EA1ECEEBFC008E7D93 /* TCXZpot-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F31ECEEC61008E7D93 /* Serializer.swift */; };
+		113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F51ECEF320008E7D93 /* TCXSerializable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCXZpot_SwiftTests.swift; sourceTree = "<group>"; };
 		113683E91ECEEBFC008E7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113683F31ECEEC61008E7D93 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		113683F51ECEF320008E7D93 /* TCXSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCXSerializable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */,
 				113683DD1ECEEBFC008E7D93 /* Info.plist */,
 				113683F31ECEEC61008E7D93 /* Serializer.swift */,
+				113683F51ECEF320008E7D93 /* TCXSerializable.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
