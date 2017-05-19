@@ -8,7 +8,7 @@
 
 import Foundation
 
-class AbstractSource : TCXSerializable {
+public class AbstractSource : TCXSerializable {
     private let name : String
     
     init(name : String) {
@@ -19,7 +19,7 @@ class AbstractSource : TCXSerializable {
         fatalError("tcxType must be override")
     }
     
-    func serialize(to serializer: Serializer) {
+    public func serialize(to serializer: Serializer) {
         fatalError("serialize must be override")
     }
 }

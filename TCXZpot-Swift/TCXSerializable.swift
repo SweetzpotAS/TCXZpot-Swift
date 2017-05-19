@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol TCXSerializable {
+public protocol TCXSerializable {
     func serialize(to serializer : Serializer)
 }

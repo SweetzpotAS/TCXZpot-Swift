@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol Serializer {
+public protocol Serializer {
     func print(line : String)
 }

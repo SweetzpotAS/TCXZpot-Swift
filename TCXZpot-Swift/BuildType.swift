@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum BuildType {
+public enum BuildType {
     case Internal
     case Alpha
     case Beta
@@ -16,7 +16,7 @@ enum BuildType {
 }
 
 extension BuildType : CustomStringConvertible {
-    var description : String {
+    public var description : String {
         switch self {
         case .Internal: return "Internal"
         case .Alpha: return "Alpha"
@@ -27,7 +27,7 @@ extension BuildType : CustomStringConvertible {
 }
 
 extension BuildType : TCXSerializable {
-    func serialize(to serializer: Serializer) {
+    public func serialize(to serializer: Serializer) {
         serializer.print(line: "<Type>\(self.description)</Type>")
     }
 }
