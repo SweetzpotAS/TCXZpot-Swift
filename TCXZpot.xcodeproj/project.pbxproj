@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113683E31ECEEBFC008E7D93 /* TCXZpot-Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113683D91ECEEBFC008E7D93 /* TCXZpot-Swift.framework */; };
-		113683E81ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */; };
+		113683E31ECEEBFC008E7D93 /* TCXZpot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113683D91ECEEBFC008E7D93 /* TCXZpot.framework */; };
 		113683EA1ECEEBFC008E7D93 /* TCXZpot-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F31ECEEC61008E7D93 /* Serializer.swift */; };
 		113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F51ECEF320008E7D93 /* TCXSerializable.swift */; };
 		113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F71ECEF383008E7D93 /* AbstractSource.swift */; };
+		113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683F91ECEF4CB008E7D93 /* BuildType.swift */; };
+		113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */; };
+		113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683FE1ECEF911008E7D93 /* MockSerializer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,15 +28,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		113683D91ECEEBFC008E7D93 /* TCXZpot-Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "TCXZpot-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		113683D91ECEEBFC008E7D93 /* TCXZpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TCXZpot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCXZpot-Swift.h"; sourceTree = "<group>"; };
 		113683DD1ECEEBFC008E7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		113683E21ECEEBFC008E7D93 /* TCXZpot-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCXZpot-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCXZpot_SwiftTests.swift; sourceTree = "<group>"; };
+		113683E21ECEEBFC008E7D93 /* TCXZpotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCXZpotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		113683E91ECEEBFC008E7D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		113683F31ECEEC61008E7D93 /* Serializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
 		113683F51ECEF320008E7D93 /* TCXSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCXSerializable.swift; sourceTree = "<group>"; };
 		113683F71ECEF383008E7D93 /* AbstractSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractSource.swift; sourceTree = "<group>"; };
+		113683F91ECEF4CB008E7D93 /* BuildType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildType.swift; sourceTree = "<group>"; };
+		113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTypeTest.swift; sourceTree = "<group>"; };
+		113683FE1ECEF911008E7D93 /* MockSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSerializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113683E31ECEEBFC008E7D93 /* TCXZpot-Swift.framework in Frameworks */,
+				113683E31ECEEBFC008E7D93 /* TCXZpot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +72,8 @@
 		113683DA1ECEEBFC008E7D93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				113683D91ECEEBFC008E7D93 /* TCXZpot-Swift.framework */,
-				113683E21ECEEBFC008E7D93 /* TCXZpot-SwiftTests.xctest */,
+				113683D91ECEEBFC008E7D93 /* TCXZpot.framework */,
+				113683E21ECEEBFC008E7D93 /* TCXZpotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +86,7 @@
 				113683F31ECEEC61008E7D93 /* Serializer.swift */,
 				113683F51ECEF320008E7D93 /* TCXSerializable.swift */,
 				113683F71ECEF383008E7D93 /* AbstractSource.swift */,
+				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -89,10 +94,19 @@
 		113683E61ECEEBFC008E7D93 /* TCXZpot-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				113683E71ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift */,
+				113683FD1ECEF904008E7D93 /* Mocks */,
 				113683E91ECEEBFC008E7D93 /* Info.plist */,
+				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
+			sourceTree = "<group>";
+		};
+		113683FD1ECEF904008E7D93 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				113683FE1ECEF911008E7D93 /* MockSerializer.swift */,
+			);
+			name = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +123,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		113683D81ECEEBFC008E7D93 /* TCXZpot-Swift */ = {
+		113683D81ECEEBFC008E7D93 /* TCXZpot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 113683ED1ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpot-Swift" */;
+			buildConfigurationList = 113683ED1ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpot" */;
 			buildPhases = (
 				113683D41ECEEBFC008E7D93 /* Sources */,
 				113683D51ECEEBFC008E7D93 /* Frameworks */,
@@ -122,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = "TCXZpot-Swift";
+			name = TCXZpot;
 			productName = "TCXZpot-Swift";
-			productReference = 113683D91ECEEBFC008E7D93 /* TCXZpot-Swift.framework */;
+			productReference = 113683D91ECEEBFC008E7D93 /* TCXZpot.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		113683E11ECEEBFC008E7D93 /* TCXZpot-SwiftTests */ = {
+		113683E11ECEEBFC008E7D93 /* TCXZpotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 113683F01ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpot-SwiftTests" */;
+			buildConfigurationList = 113683F01ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpotTests" */;
 			buildPhases = (
 				113683DE1ECEEBFC008E7D93 /* Sources */,
 				113683DF1ECEEBFC008E7D93 /* Frameworks */,
@@ -140,9 +154,9 @@
 			dependencies = (
 				113683E51ECEEBFC008E7D93 /* PBXTargetDependency */,
 			);
-			name = "TCXZpot-SwiftTests";
+			name = TCXZpotTests;
 			productName = "TCXZpot-SwiftTests";
-			productReference = 113683E21ECEEBFC008E7D93 /* TCXZpot-SwiftTests.xctest */;
+			productReference = 113683E21ECEEBFC008E7D93 /* TCXZpotTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 113683D31ECEEBFC008E7D93 /* Build configuration list for PBXProject "TCXZpot-Swift" */;
+			buildConfigurationList = 113683D31ECEEBFC008E7D93 /* Build configuration list for PBXProject "TCXZpot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				113683D81ECEEBFC008E7D93 /* TCXZpot-Swift */,
-				113683E11ECEEBFC008E7D93 /* TCXZpot-SwiftTests */,
+				113683D81ECEEBFC008E7D93 /* TCXZpot */,
+				113683E11ECEEBFC008E7D93 /* TCXZpotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
@@ -218,7 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113683E81ECEEBFC008E7D93 /* TCXZpot_SwiftTests.swift in Sources */,
+				113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */,
+				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +243,7 @@
 /* Begin PBXTargetDependency section */
 		113683E51ECEEBFC008E7D93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 113683D81ECEEBFC008E7D93 /* TCXZpot-Swift */;
+			target = 113683D81ECEEBFC008E7D93 /* TCXZpot */;
 			targetProxy = 113683E41ECEEBFC008E7D93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		113683D31ECEEBFC008E7D93 /* Build configuration list for PBXProject "TCXZpot-Swift" */ = {
+		113683D31ECEEBFC008E7D93 /* Build configuration list for PBXProject "TCXZpot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				113683EB1ECEEBFC008E7D93 /* Debug */,
@@ -413,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		113683ED1ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpot-Swift" */ = {
+		113683ED1ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				113683EE1ECEEBFC008E7D93 /* Debug */,
@@ -421,7 +437,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		113683F01ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpot-SwiftTests" */ = {
+		113683F01ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				113683F11ECEEBFC008E7D93 /* Debug */,

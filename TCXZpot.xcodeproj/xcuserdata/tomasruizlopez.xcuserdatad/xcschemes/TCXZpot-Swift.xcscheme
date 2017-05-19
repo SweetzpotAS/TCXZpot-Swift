@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "113683D81ECEEBFC008E7D93"
-               BuildableName = "TCXZpot-Swift.framework"
-               BlueprintName = "TCXZpot-Swift"
-               ReferencedContainer = "container:TCXZpot-Swift.xcodeproj">
+               BuildableName = "TCXZpot.framework"
+               BlueprintName = "TCXZpot"
+               ReferencedContainer = "container:TCXZpot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "113683E11ECEEBFC008E7D93"
-               BuildableName = "TCXZpot-SwiftTests.xctest"
-               BlueprintName = "TCXZpot-SwiftTests"
-               ReferencedContainer = "container:TCXZpot-Swift.xcodeproj">
+               BuildableName = "TCXZpotTests.xctest"
+               BlueprintName = "TCXZpotTests"
+               ReferencedContainer = "container:TCXZpot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "113683D81ECEEBFC008E7D93"
-            BuildableName = "TCXZpot-Swift.framework"
-            BlueprintName = "TCXZpot-Swift"
-            ReferencedContainer = "container:TCXZpot-Swift.xcodeproj">
+            BuildableName = "TCXZpot.framework"
+            BlueprintName = "TCXZpot"
+            ReferencedContainer = "container:TCXZpot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "113683D81ECEEBFC008E7D93"
-            BuildableName = "TCXZpot-Swift.framework"
-            BlueprintName = "TCXZpot-Swift"
-            ReferencedContainer = "container:TCXZpot-Swift.xcodeproj">
+            BuildableName = "TCXZpot.framework"
+            BlueprintName = "TCXZpot"
+            ReferencedContainer = "container:TCXZpot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "113683D81ECEEBFC008E7D93"
-            BuildableName = "TCXZpot-Swift.framework"
-            BlueprintName = "TCXZpot-Swift"
-            ReferencedContainer = "container:TCXZpot-Swift.xcodeproj">
+            BuildableName = "TCXZpot.framework"
+            BlueprintName = "TCXZpot"
+            ReferencedContainer = "container:TCXZpot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
