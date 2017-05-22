@@ -23,6 +23,8 @@
 		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
 		11E6350E1ED327470031AFA5 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350D1ED327470031AFA5 /* HeartRate.swift */; };
 		11E635101ED3279F0031AFA5 /* HeartRateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */; };
+		11E635121ED328140031AFA5 /* Intensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635111ED328140031AFA5 /* Intensity.swift */; };
+		11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635131ED328AC0031AFA5 /* IntensityTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
 		11E6350D1ED327470031AFA5 /* HeartRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
 		11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateTest.swift; sourceTree = "<group>"; };
+		11E635111ED328140031AFA5 /* Intensity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intensity.swift; sourceTree = "<group>"; };
+		11E635131ED328AC0031AFA5 /* IntensityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 				113684061ECF075B008E7D93 /* Build.swift */,
 				11E635091ED325E60031AFA5 /* Cadence.swift */,
 				11E6350D1ED327470031AFA5 /* HeartRate.swift */,
+				11E635111ED328140031AFA5 /* Intensity.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				11E635071ED3243B0031AFA5 /* BuildTest.swift */,
 				11E6350B1ED326480031AFA5 /* CadenceTest.swift */,
 				11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */,
+				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 				113684081ECF078C008E7D93 /* Build.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
+				11E635121ED328140031AFA5 /* Intensity.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 				113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */,
 				11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */,
 				11E635101ED3279F0031AFA5 /* HeartRateTest.swift in Sources */,
+				11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
