@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Application : AbstractSource {
+public struct Application {
     fileprivate let name : String
     fileprivate let build : Build
     fileprivate let languageID : String
@@ -20,12 +20,16 @@ public class Application : AbstractSource {
         self.languageID = languageID
         self.partNumber = partNumber
     }
-    
-    override func tcxType() -> String {
+}
+
+extension Application : AbstractSource {
+    public var tcxType : String {
         return "Application_t"
     }
-    
-    override public func serialize(to serializer: Serializer) {
+}
+
+extension Application : TCXSerializable {
+    public func serialize(to serializer: Serializer) {
         serializer.print(line: "<Name>\(name)</Name>")
         build.serialize(to: serializer)
         serializer.print(line: "<LangID>\(languageID)</LangID>")

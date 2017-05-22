@@ -8,12 +8,6 @@
 
 import Foundation
 
-public class AbstractSource : TCXSerializable {
-    func tcxType() -> String {
-        fatalError("tcxType must be override")
-    }
-    
-    public func serialize(to serializer: Serializer) {
-        fatalError("serialize must be override")
-    }
+public protocol AbstractSource {
+    var tcxType : String { get }
 }
