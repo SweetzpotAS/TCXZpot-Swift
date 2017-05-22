@@ -19,6 +19,8 @@
 		113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684041ECEFCD8008E7D93 /* VersionTest.swift */; };
 		113684081ECF078C008E7D93 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684061ECF075B008E7D93 /* Build.swift */; };
 		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
+		11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635091ED325E60031AFA5 /* Cadence.swift */; };
+		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		113684041ECEFCD8008E7D93 /* VersionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionTest.swift; sourceTree = "<group>"; };
 		113684061ECF075B008E7D93 /* Build.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
 		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
+		11E635091ED325E60031AFA5 /* Cadence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
+		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
 				113684011ECEFAEF008E7D93 /* Version.swift */,
 				113684061ECF075B008E7D93 /* Build.swift */,
+				11E635091ED325E60031AFA5 /* Cadence.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -109,6 +114,7 @@
 				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
 				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
 				11E635071ED3243B0031AFA5 /* BuildTest.swift */,
+				11E6350B1ED326480031AFA5 /* CadenceTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			files = (
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
+				11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */,
 				113684081ECF078C008E7D93 /* Build.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
@@ -248,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */,
+				11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */,
 				113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */,
 				11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
