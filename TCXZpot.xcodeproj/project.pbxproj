@@ -17,6 +17,8 @@
 		113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113683FE1ECEF911008E7D93 /* MockSerializer.swift */; };
 		113684031ECEFC02008E7D93 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684011ECEFAEF008E7D93 /* Version.swift */; };
 		113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684041ECEFCD8008E7D93 /* VersionTest.swift */; };
+		113684081ECF078C008E7D93 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684061ECF075B008E7D93 /* Build.swift */; };
+		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		113683FE1ECEF911008E7D93 /* MockSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSerializer.swift; sourceTree = "<group>"; };
 		113684011ECEFAEF008E7D93 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		113684041ECEFCD8008E7D93 /* VersionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionTest.swift; sourceTree = "<group>"; };
+		113684061ECF075B008E7D93 /* Build.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				113683F71ECEF383008E7D93 /* AbstractSource.swift */,
 				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
 				113684011ECEFAEF008E7D93 /* Version.swift */,
+				113684061ECF075B008E7D93 /* Build.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				113683E91ECEEBFC008E7D93 /* Info.plist */,
 				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
 				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
+				11E635071ED3243B0031AFA5 /* BuildTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			files = (
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
+				113684081ECF078C008E7D93 /* Build.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
@@ -242,6 +249,7 @@
 			files = (
 				113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */,
 				113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */,
+				11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +452,7 @@
 				113683EF1ECEEBFC008E7D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		113683F01ECEEBFC008E7D93 /* Build configuration list for PBXNativeTarget "TCXZpotTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +461,7 @@
 				113683F21ECEEBFC008E7D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
