@@ -36,6 +36,8 @@
 		11E635271ED32EC00031AFA5 /* TriggerMethodTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */; };
 		11E635291ED32F680031AFA5 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635281ED32F680031AFA5 /* Application.swift */; };
 		11E6352B1ED332000031AFA5 /* ApplicationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6352A1ED332000031AFA5 /* ApplicationTest.swift */; };
+		11E6352D1ED333280031AFA5 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6352C1ED333280031AFA5 /* Device.swift */; };
+		11E6352F1ED334F50031AFA5 /* DeviceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6352E1ED334F50031AFA5 /* DeviceTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerMethodTest.swift; sourceTree = "<group>"; };
 		11E635281ED32F680031AFA5 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		11E6352A1ED332000031AFA5 /* ApplicationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTest.swift; sourceTree = "<group>"; };
+		11E6352C1ED333280031AFA5 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		11E6352E1ED334F50031AFA5 /* DeviceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,23 +127,24 @@
 		113683DB1ECEEBFC008E7D93 /* TCXZpot-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */,
-				113683DD1ECEEBFC008E7D93 /* Info.plist */,
-				113683F31ECEEC61008E7D93 /* Serializer.swift */,
-				113683F51ECEF320008E7D93 /* TCXSerializable.swift */,
 				113683F71ECEF383008E7D93 /* AbstractSource.swift */,
-				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
-				113684011ECEFAEF008E7D93 /* Version.swift */,
+				11E635281ED32F680031AFA5 /* Application.swift */,
 				113684061ECF075B008E7D93 /* Build.swift */,
+				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
 				11E635091ED325E60031AFA5 /* Cadence.swift */,
 				11E6350D1ED327470031AFA5 /* HeartRate.swift */,
+				113683DD1ECEEBFC008E7D93 /* Info.plist */,
 				11E635111ED328140031AFA5 /* Intensity.swift */,
 				11E635151ED3293A0031AFA5 /* Notes.swift */,
 				11E635191ED32A3C0031AFA5 /* Position.swift */,
 				11E6351E1ED32C610031AFA5 /* SensorState.swift */,
+				113683F31ECEEC61008E7D93 /* Serializer.swift */,
 				11E635221ED32D580031AFA5 /* Sport.swift */,
+				113683F51ECEF320008E7D93 /* TCXSerializable.swift */,
+				113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */,
 				11E635241ED32E2C0031AFA5 /* TriggerMethod.swift */,
-				11E635281ED32F680031AFA5 /* Application.swift */,
+				113684011ECEFAEF008E7D93 /* Version.swift */,
+				11E6352C1ED333280031AFA5 /* Device.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -147,19 +152,20 @@
 		113683E61ECEEBFC008E7D93 /* TCXZpot-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				113683FD1ECEF904008E7D93 /* Mocks */,
-				113683E91ECEEBFC008E7D93 /* Info.plist */,
-				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
-				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
+				11E6352A1ED332000031AFA5 /* ApplicationTest.swift */,
 				11E635071ED3243B0031AFA5 /* BuildTest.swift */,
+				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
 				11E6350B1ED326480031AFA5 /* CadenceTest.swift */,
 				11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */,
+				113683E91ECEEBFC008E7D93 /* Info.plist */,
 				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
+				113683FD1ECEF904008E7D93 /* Mocks */,
 				11E635171ED329920031AFA5 /* NotesTest.swift */,
 				11E6351C1ED32B130031AFA5 /* PositionTest.swift */,
 				11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */,
 				11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */,
-				11E6352A1ED332000031AFA5 /* ApplicationTest.swift */,
+				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
+				11E6352E1ED334F50031AFA5 /* DeviceTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -292,6 +298,7 @@
 				11E635161ED3293A0031AFA5 /* Notes.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
 				11E6350E1ED327470031AFA5 /* HeartRate.swift in Sources */,
+				11E6352D1ED333280031AFA5 /* Device.swift in Sources */,
 				11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */,
 				11E635231ED32D580031AFA5 /* Sport.swift in Sources */,
 				113684081ECF078C008E7D93 /* Build.swift in Sources */,
@@ -319,6 +326,7 @@
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 				11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */,
 				11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */,
+				11E6352F1ED334F50031AFA5 /* DeviceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
