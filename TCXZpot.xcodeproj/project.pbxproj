@@ -27,6 +27,8 @@
 		11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635131ED328AC0031AFA5 /* IntensityTest.swift */; };
 		11E635161ED3293A0031AFA5 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635151ED3293A0031AFA5 /* Notes.swift */; };
 		11E635181ED329920031AFA5 /* NotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635171ED329920031AFA5 /* NotesTest.swift */; };
+		11E6351A1ED32A3C0031AFA5 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635191ED32A3C0031AFA5 /* Position.swift */; };
+		11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6351C1ED32B130031AFA5 /* PositionTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		11E635131ED328AC0031AFA5 /* IntensityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityTest.swift; sourceTree = "<group>"; };
 		11E635151ED3293A0031AFA5 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 		11E635171ED329920031AFA5 /* NotesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTest.swift; sourceTree = "<group>"; };
+		11E635191ED32A3C0031AFA5 /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		11E6351C1ED32B130031AFA5 /* PositionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				11E6350D1ED327470031AFA5 /* HeartRate.swift */,
 				11E635111ED328140031AFA5 /* Intensity.swift */,
 				11E635151ED3293A0031AFA5 /* Notes.swift */,
+				11E635191ED32A3C0031AFA5 /* Position.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */,
 				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
 				11E635171ED329920031AFA5 /* NotesTest.swift */,
+				11E6351C1ED32B130031AFA5 /* PositionTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E6351A1ED32A3C0031AFA5 /* Position.swift in Sources */,
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
 				11E635161ED3293A0031AFA5 /* Notes.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
@@ -283,6 +290,7 @@
 				11E635101ED3279F0031AFA5 /* HeartRateTest.swift in Sources */,
 				11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
+				11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
