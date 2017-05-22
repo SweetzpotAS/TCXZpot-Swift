@@ -32,6 +32,8 @@
 		11E6351F1ED32C610031AFA5 /* SensorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6351E1ED32C610031AFA5 /* SensorState.swift */; };
 		11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */; };
 		11E635231ED32D580031AFA5 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635221ED32D580031AFA5 /* Sport.swift */; };
+		11E635251ED32E2C0031AFA5 /* TriggerMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635241ED32E2C0031AFA5 /* TriggerMethod.swift */; };
+		11E635271ED32EC00031AFA5 /* TriggerMethodTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		11E6351E1ED32C610031AFA5 /* SensorState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorState.swift; sourceTree = "<group>"; };
 		11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorStateTest.swift; sourceTree = "<group>"; };
 		11E635221ED32D580031AFA5 /* Sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		11E635241ED32E2C0031AFA5 /* TriggerMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerMethod.swift; sourceTree = "<group>"; };
+		11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerMethodTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 				11E635191ED32A3C0031AFA5 /* Position.swift */,
 				11E6351E1ED32C610031AFA5 /* SensorState.swift */,
 				11E635221ED32D580031AFA5 /* Sport.swift */,
+				11E635241ED32E2C0031AFA5 /* TriggerMethod.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				11E635171ED329920031AFA5 /* NotesTest.swift */,
 				11E6351C1ED32B130031AFA5 /* PositionTest.swift */,
 				11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */,
+				11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E6351A1ED32A3C0031AFA5 /* Position.swift in Sources */,
+				11E635251ED32E2C0031AFA5 /* TriggerMethod.swift in Sources */,
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
 				11E635161ED3293A0031AFA5 /* Notes.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
@@ -294,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */,
+				11E635271ED32EC00031AFA5 /* TriggerMethodTest.swift in Sources */,
 				11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */,
 				113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */,
 				11E635181ED329920031AFA5 /* NotesTest.swift in Sources */,
