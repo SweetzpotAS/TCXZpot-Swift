@@ -25,6 +25,8 @@
 		11E635101ED3279F0031AFA5 /* HeartRateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */; };
 		11E635121ED328140031AFA5 /* Intensity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635111ED328140031AFA5 /* Intensity.swift */; };
 		11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635131ED328AC0031AFA5 /* IntensityTest.swift */; };
+		11E635161ED3293A0031AFA5 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635151ED3293A0031AFA5 /* Notes.swift */; };
+		11E635181ED329920031AFA5 /* NotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635171ED329920031AFA5 /* NotesTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateTest.swift; sourceTree = "<group>"; };
 		11E635111ED328140031AFA5 /* Intensity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intensity.swift; sourceTree = "<group>"; };
 		11E635131ED328AC0031AFA5 /* IntensityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityTest.swift; sourceTree = "<group>"; };
+		11E635151ED3293A0031AFA5 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		11E635171ED329920031AFA5 /* NotesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 				11E635091ED325E60031AFA5 /* Cadence.swift */,
 				11E6350D1ED327470031AFA5 /* HeartRate.swift */,
 				11E635111ED328140031AFA5 /* Intensity.swift */,
+				11E635151ED3293A0031AFA5 /* Notes.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 				11E6350B1ED326480031AFA5 /* CadenceTest.swift */,
 				11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */,
 				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
+				11E635171ED329920031AFA5 /* NotesTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
+				11E635161ED3293A0031AFA5 /* Notes.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
 				11E6350E1ED327470031AFA5 /* HeartRate.swift in Sources */,
 				11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */,
@@ -271,6 +278,7 @@
 				113683FC1ECEF8FA008E7D93 /* BuildTypeTest.swift in Sources */,
 				11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */,
 				113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */,
+				11E635181ED329920031AFA5 /* NotesTest.swift in Sources */,
 				11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */,
 				11E635101ED3279F0031AFA5 /* HeartRateTest.swift in Sources */,
 				11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */,
