@@ -9,12 +9,6 @@
 import Foundation
 
 public class AbstractSource : TCXSerializable {
-    private let name : String
-    
-    init(name : String) {
-        self.name = name
-    }
-    
     func tcxType() -> String {
         fatalError("tcxType must be override")
     }
