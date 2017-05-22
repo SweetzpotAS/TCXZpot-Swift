@@ -29,6 +29,8 @@
 		11E635181ED329920031AFA5 /* NotesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635171ED329920031AFA5 /* NotesTest.swift */; };
 		11E6351A1ED32A3C0031AFA5 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635191ED32A3C0031AFA5 /* Position.swift */; };
 		11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6351C1ED32B130031AFA5 /* PositionTest.swift */; };
+		11E6351F1ED32C610031AFA5 /* SensorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6351E1ED32C610031AFA5 /* SensorState.swift */; };
+		11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		11E635171ED329920031AFA5 /* NotesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTest.swift; sourceTree = "<group>"; };
 		11E635191ED32A3C0031AFA5 /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		11E6351C1ED32B130031AFA5 /* PositionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTest.swift; sourceTree = "<group>"; };
+		11E6351E1ED32C610031AFA5 /* SensorState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorState.swift; sourceTree = "<group>"; };
+		11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorStateTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 				11E635111ED328140031AFA5 /* Intensity.swift */,
 				11E635151ED3293A0031AFA5 /* Notes.swift */,
 				11E635191ED32A3C0031AFA5 /* Position.swift */,
+				11E6351E1ED32C610031AFA5 /* SensorState.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
 				11E635171ED329920031AFA5 /* NotesTest.swift */,
 				11E6351C1ED32B130031AFA5 /* PositionTest.swift */,
+				11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 				11E6350E1ED327470031AFA5 /* HeartRate.swift in Sources */,
 				11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */,
 				113684081ECF078C008E7D93 /* Build.swift in Sources */,
+				11E6351F1ED32C610031AFA5 /* SensorState.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				11E635121ED328140031AFA5 /* Intensity.swift in Sources */,
@@ -291,6 +298,7 @@
 				11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 				11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */,
+				11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
