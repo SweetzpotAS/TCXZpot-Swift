@@ -22,6 +22,8 @@
 		11A8F6F61ED484C600EA55FF /* TCXDateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */; };
 		11A8F6F81ED485FC00EA55FF /* Trackpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6F71ED485FC00EA55FF /* Trackpoint.swift */; };
 		11A8F6FA1ED4881F00EA55FF /* TrackpointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6F91ED4881F00EA55FF /* TrackpointTest.swift */; };
+		11A8F6FC1ED48A0200EA55FF /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6FB1ED48A0200EA55FF /* Track.swift */; };
+		11A8F6FE1ED48ABD00EA55FF /* TrackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */; };
 		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
 		11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635091ED325E60031AFA5 /* Cadence.swift */; };
 		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
@@ -73,6 +75,8 @@
 		11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCXDateTest.swift; sourceTree = "<group>"; };
 		11A8F6F71ED485FC00EA55FF /* Trackpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trackpoint.swift; sourceTree = "<group>"; };
 		11A8F6F91ED4881F00EA55FF /* TrackpointTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackpointTest.swift; sourceTree = "<group>"; };
+		11A8F6FB1ED48A0200EA55FF /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTest.swift; sourceTree = "<group>"; };
 		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
 		11E635091ED325E60031AFA5 /* Cadence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
 		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
@@ -155,6 +159,7 @@
 				113684011ECEFAEF008E7D93 /* Version.swift */,
 				11A8F6F31ED482BC00EA55FF /* TCXDate.swift */,
 				11A8F6F71ED485FC00EA55FF /* Trackpoint.swift */,
+				11A8F6FB1ED48A0200EA55FF /* Track.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
 				11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */,
 				11A8F6F91ED4881F00EA55FF /* TrackpointTest.swift */,
+				11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				11E6351A1ED32A3C0031AFA5 /* Position.swift in Sources */,
 				11E635251ED32E2C0031AFA5 /* TriggerMethod.swift in Sources */,
 				113683FA1ECEF4CB008E7D93 /* BuildType.swift in Sources */,
+				11A8F6FC1ED48A0200EA55FF /* Track.swift in Sources */,
 				11E635161ED3293A0031AFA5 /* Notes.swift in Sources */,
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
 				11E6350E1ED327470031AFA5 /* HeartRate.swift in Sources */,
@@ -343,6 +350,7 @@
 				11A8F6FA1ED4881F00EA55FF /* TrackpointTest.swift in Sources */,
 				11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */,
 				11E6352F1ED334F50031AFA5 /* DeviceTest.swift in Sources */,
+				11A8F6FE1ED48ABD00EA55FF /* TrackTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
