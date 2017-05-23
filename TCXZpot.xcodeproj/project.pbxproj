@@ -18,6 +18,8 @@
 		113684031ECEFC02008E7D93 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684011ECEFAEF008E7D93 /* Version.swift */; };
 		113684051ECEFCD8008E7D93 /* VersionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684041ECEFCD8008E7D93 /* VersionTest.swift */; };
 		113684081ECF078C008E7D93 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113684061ECF075B008E7D93 /* Build.swift */; };
+		11A8F6F41ED482BC00EA55FF /* TCXDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6F31ED482BC00EA55FF /* TCXDate.swift */; };
+		11A8F6F61ED484C600EA55FF /* TCXDateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */; };
 		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
 		11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635091ED325E60031AFA5 /* Cadence.swift */; };
 		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
@@ -65,6 +67,8 @@
 		113684011ECEFAEF008E7D93 /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		113684041ECEFCD8008E7D93 /* VersionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionTest.swift; sourceTree = "<group>"; };
 		113684061ECF075B008E7D93 /* Build.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		11A8F6F31ED482BC00EA55FF /* TCXDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCXDate.swift; sourceTree = "<group>"; };
+		11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCXDateTest.swift; sourceTree = "<group>"; };
 		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
 		11E635091ED325E60031AFA5 /* Cadence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
 		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				113684061ECF075B008E7D93 /* Build.swift */,
 				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
 				11E635091ED325E60031AFA5 /* Cadence.swift */,
+				11E6352C1ED333280031AFA5 /* Device.swift */,
 				11E6350D1ED327470031AFA5 /* HeartRate.swift */,
 				113683DD1ECEEBFC008E7D93 /* Info.plist */,
 				11E635111ED328140031AFA5 /* Intensity.swift */,
@@ -144,7 +149,7 @@
 				113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */,
 				11E635241ED32E2C0031AFA5 /* TriggerMethod.swift */,
 				113684011ECEFAEF008E7D93 /* Version.swift */,
-				11E6352C1ED333280031AFA5 /* Device.swift */,
+				11A8F6F31ED482BC00EA55FF /* TCXDate.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				11E635071ED3243B0031AFA5 /* BuildTest.swift */,
 				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
 				11E6350B1ED326480031AFA5 /* CadenceTest.swift */,
+				11E6352E1ED334F50031AFA5 /* DeviceTest.swift */,
 				11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */,
 				113683E91ECEEBFC008E7D93 /* Info.plist */,
 				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
@@ -165,7 +171,7 @@
 				11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */,
 				11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */,
 				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
-				11E6352E1ED334F50031AFA5 /* DeviceTest.swift */,
+				11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				11E635121ED328140031AFA5 /* Intensity.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
+				11A8F6F41ED482BC00EA55FF /* TCXDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +328,7 @@
 				11E635181ED329920031AFA5 /* NotesTest.swift in Sources */,
 				11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */,
 				11E635101ED3279F0031AFA5 /* HeartRateTest.swift in Sources */,
+				11A8F6F61ED484C600EA55FF /* TCXDateTest.swift in Sources */,
 				11E635141ED328AC0031AFA5 /* IntensityTest.swift in Sources */,
 				11E6352B1ED332000031AFA5 /* ApplicationTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
