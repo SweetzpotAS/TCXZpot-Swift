@@ -28,6 +28,8 @@
 		11A8F7021ED57ABA00EA55FF /* LapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7011ED57ABA00EA55FF /* LapTest.swift */; };
 		11A8F7041ED57D8800EA55FF /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7031ED57D8800EA55FF /* Activity.swift */; };
 		11A8F7061ED5800900EA55FF /* ActivityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7051ED5800900EA55FF /* ActivityTest.swift */; };
+		11A8F7081ED5825200EA55FF /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7071ED5825200EA55FF /* Activities.swift */; };
+		11A8F70A1ED582F900EA55FF /* ActivitiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7091ED582F900EA55FF /* ActivitiesTest.swift */; };
 		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
 		11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635091ED325E60031AFA5 /* Cadence.swift */; };
 		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
@@ -85,6 +87,8 @@
 		11A8F7011ED57ABA00EA55FF /* LapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapTest.swift; sourceTree = "<group>"; };
 		11A8F7031ED57D8800EA55FF /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		11A8F7051ED5800900EA55FF /* ActivityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTest.swift; sourceTree = "<group>"; };
+		11A8F7071ED5825200EA55FF /* Activities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		11A8F7091ED582F900EA55FF /* ActivitiesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesTest.swift; sourceTree = "<group>"; };
 		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
 		11E635091ED325E60031AFA5 /* Cadence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
 		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				113683F71ECEF383008E7D93 /* AbstractSource.swift */,
+				11A8F7071ED5825200EA55FF /* Activities.swift */,
+				11A8F7031ED57D8800EA55FF /* Activity.swift */,
 				11E635281ED32F680031AFA5 /* Application.swift */,
 				113684061ECF075B008E7D93 /* Build.swift */,
 				113683F91ECEF4CB008E7D93 /* BuildType.swift */,
@@ -156,20 +162,19 @@
 				11E6350D1ED327470031AFA5 /* HeartRate.swift */,
 				113683DD1ECEEBFC008E7D93 /* Info.plist */,
 				11E635111ED328140031AFA5 /* Intensity.swift */,
+				11A8F6FF1ED48C0300EA55FF /* Lap.swift */,
 				11E635151ED3293A0031AFA5 /* Notes.swift */,
 				11E635191ED32A3C0031AFA5 /* Position.swift */,
 				11E6351E1ED32C610031AFA5 /* SensorState.swift */,
 				113683F31ECEEC61008E7D93 /* Serializer.swift */,
 				11E635221ED32D580031AFA5 /* Sport.swift */,
+				11A8F6F31ED482BC00EA55FF /* TCXDate.swift */,
 				113683F51ECEF320008E7D93 /* TCXSerializable.swift */,
 				113683DC1ECEEBFC008E7D93 /* TCXZpot-Swift.h */,
+				11A8F6FB1ED48A0200EA55FF /* Track.swift */,
+				11A8F6F71ED485FC00EA55FF /* Trackpoint.swift */,
 				11E635241ED32E2C0031AFA5 /* TriggerMethod.swift */,
 				113684011ECEFAEF008E7D93 /* Version.swift */,
-				11A8F6F31ED482BC00EA55FF /* TCXDate.swift */,
-				11A8F6F71ED485FC00EA55FF /* Trackpoint.swift */,
-				11A8F6FB1ED48A0200EA55FF /* Track.swift */,
-				11A8F6FF1ED48C0300EA55FF /* Lap.swift */,
-				11A8F7031ED57D8800EA55FF /* Activity.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -177,6 +182,8 @@
 		113683E61ECEEBFC008E7D93 /* TCXZpot-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				11A8F7091ED582F900EA55FF /* ActivitiesTest.swift */,
+				11A8F7051ED5800900EA55FF /* ActivityTest.swift */,
 				11E6352A1ED332000031AFA5 /* ApplicationTest.swift */,
 				11E635071ED3243B0031AFA5 /* BuildTest.swift */,
 				113683FB1ECEF8FA008E7D93 /* BuildTypeTest.swift */,
@@ -185,17 +192,16 @@
 				11E6350F1ED3279F0031AFA5 /* HeartRateTest.swift */,
 				113683E91ECEEBFC008E7D93 /* Info.plist */,
 				11E635131ED328AC0031AFA5 /* IntensityTest.swift */,
+				11A8F7011ED57ABA00EA55FF /* LapTest.swift */,
 				113683FD1ECEF904008E7D93 /* Mocks */,
 				11E635171ED329920031AFA5 /* NotesTest.swift */,
 				11E6351C1ED32B130031AFA5 /* PositionTest.swift */,
 				11E635201ED32CDC0031AFA5 /* SensorStateTest.swift */,
-				11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */,
-				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
 				11A8F6F51ED484C600EA55FF /* TCXDateTest.swift */,
 				11A8F6F91ED4881F00EA55FF /* TrackpointTest.swift */,
 				11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */,
-				11A8F7011ED57ABA00EA55FF /* LapTest.swift */,
-				11A8F7051ED5800900EA55FF /* ActivityTest.swift */,
+				11E635261ED32EC00031AFA5 /* TriggerMethodTest.swift */,
+				113684041ECEFCD8008E7D93 /* VersionTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				113683F61ECEF320008E7D93 /* TCXSerializable.swift in Sources */,
 				11E635121ED328140031AFA5 /* Intensity.swift in Sources */,
 				113683F41ECEEC61008E7D93 /* Serializer.swift in Sources */,
+				11A8F7081ED5825200EA55FF /* Activities.swift in Sources */,
 				11A8F6F41ED482BC00EA55FF /* TCXDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +369,7 @@
 				11E6352B1ED332000031AFA5 /* ApplicationTest.swift in Sources */,
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 				11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */,
+				11A8F70A1ED582F900EA55FF /* ActivitiesTest.swift in Sources */,
 				11A8F6FA1ED4881F00EA55FF /* TrackpointTest.swift in Sources */,
 				11A8F7061ED5800900EA55FF /* ActivityTest.swift in Sources */,
 				11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */,
