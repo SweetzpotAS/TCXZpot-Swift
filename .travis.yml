@@ -1,0 +1,9 @@
+language: objective-c
+
+xcode_project: TCXZpot.xcodeproj
+xcode_scheme: TCXZpot-Swift
+osx_image: xcode8.3
+xcode_sdk: iphonesimulator10.3
+
+script:
+- xcodebuild clean build test -project TCXZpot.xcodeproj -scheme TCXZpot-Swift
