@@ -26,6 +26,8 @@
 		11A8F6FE1ED48ABD00EA55FF /* TrackTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */; };
 		11A8F7001ED48C0300EA55FF /* Lap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F6FF1ED48C0300EA55FF /* Lap.swift */; };
 		11A8F7021ED57ABA00EA55FF /* LapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7011ED57ABA00EA55FF /* LapTest.swift */; };
+		11A8F7041ED57D8800EA55FF /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7031ED57D8800EA55FF /* Activity.swift */; };
+		11A8F7061ED5800900EA55FF /* ActivityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7051ED5800900EA55FF /* ActivityTest.swift */; };
 		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
 		11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635091ED325E60031AFA5 /* Cadence.swift */; };
 		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
@@ -81,6 +83,8 @@
 		11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTest.swift; sourceTree = "<group>"; };
 		11A8F6FF1ED48C0300EA55FF /* Lap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lap.swift; sourceTree = "<group>"; };
 		11A8F7011ED57ABA00EA55FF /* LapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LapTest.swift; sourceTree = "<group>"; };
+		11A8F7031ED57D8800EA55FF /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		11A8F7051ED5800900EA55FF /* ActivityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTest.swift; sourceTree = "<group>"; };
 		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
 		11E635091ED325E60031AFA5 /* Cadence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
 		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 				11A8F6F71ED485FC00EA55FF /* Trackpoint.swift */,
 				11A8F6FB1ED48A0200EA55FF /* Track.swift */,
 				11A8F6FF1ED48C0300EA55FF /* Lap.swift */,
+				11A8F7031ED57D8800EA55FF /* Activity.swift */,
 			);
 			path = "TCXZpot-Swift";
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				11A8F6F91ED4881F00EA55FF /* TrackpointTest.swift */,
 				11A8F6FD1ED48ABD00EA55FF /* TrackTest.swift */,
 				11A8F7011ED57ABA00EA55FF /* LapTest.swift */,
+				11A8F7051ED5800900EA55FF /* ActivityTest.swift */,
 			);
 			path = "TCXZpot-SwiftTests";
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 				113684031ECEFC02008E7D93 /* Version.swift in Sources */,
 				11E6350E1ED327470031AFA5 /* HeartRate.swift in Sources */,
 				11E6352D1ED333280031AFA5 /* Device.swift in Sources */,
+				11A8F7041ED57D8800EA55FF /* Activity.swift in Sources */,
 				11A8F6F81ED485FC00EA55FF /* Trackpoint.swift in Sources */,
 				11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */,
 				11E635231ED32D580031AFA5 /* Sport.swift in Sources */,
@@ -356,6 +363,7 @@
 				113683FF1ECEF911008E7D93 /* MockSerializer.swift in Sources */,
 				11E6351D1ED32B130031AFA5 /* PositionTest.swift in Sources */,
 				11A8F6FA1ED4881F00EA55FF /* TrackpointTest.swift in Sources */,
+				11A8F7061ED5800900EA55FF /* ActivityTest.swift in Sources */,
 				11E635211ED32CDC0031AFA5 /* SensorStateTest.swift in Sources */,
 				11E6352F1ED334F50031AFA5 /* DeviceTest.swift in Sources */,
 				11A8F6FE1ED48ABD00EA55FF /* TrackTest.swift in Sources */,
