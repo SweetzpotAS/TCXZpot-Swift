@@ -32,6 +32,7 @@
 		11A8F70A1ED582F900EA55FF /* ActivitiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7091ED582F900EA55FF /* ActivitiesTest.swift */; };
 		11A8F70C1ED5858B00EA55FF /* TrainingCenterDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F70B1ED5858B00EA55FF /* TrainingCenterDatabase.swift */; };
 		11A8F70E1ED5890500EA55FF /* TrainingCenterDatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F70D1ED5890500EA55FF /* TrainingCenterDatabaseTest.swift */; };
+		11A8F7111ED58A7D00EA55FF /* ConsoleSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A8F7101ED58A7D00EA55FF /* ConsoleSerializer.swift */; };
 		11E635081ED3243B0031AFA5 /* BuildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635071ED3243B0031AFA5 /* BuildTest.swift */; };
 		11E6350A1ED325E60031AFA5 /* Cadence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E635091ED325E60031AFA5 /* Cadence.swift */; };
 		11E6350C1ED326480031AFA5 /* CadenceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E6350B1ED326480031AFA5 /* CadenceTest.swift */; };
@@ -93,6 +94,7 @@
 		11A8F7091ED582F900EA55FF /* ActivitiesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesTest.swift; sourceTree = "<group>"; };
 		11A8F70B1ED5858B00EA55FF /* TrainingCenterDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCenterDatabase.swift; sourceTree = "<group>"; };
 		11A8F70D1ED5890500EA55FF /* TrainingCenterDatabaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingCenterDatabaseTest.swift; sourceTree = "<group>"; };
+		11A8F7101ED58A7D00EA55FF /* ConsoleSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleSerializer.swift; sourceTree = "<group>"; };
 		11E635071ED3243B0031AFA5 /* BuildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTest.swift; sourceTree = "<group>"; };
 		11E635091ED325E60031AFA5 /* Cadence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadence.swift; sourceTree = "<group>"; };
 		11E6350B1ED326480031AFA5 /* CadenceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadenceTest.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		113683DB1ECEEBFC008E7D93 /* TCXZpot-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				11A8F70F1ED58A6B00EA55FF /* Serializers */,
 				113683F71ECEF383008E7D93 /* AbstractSource.swift */,
 				11A8F7071ED5825200EA55FF /* Activities.swift */,
 				11A8F7031ED57D8800EA55FF /* Activity.swift */,
@@ -218,6 +221,14 @@
 				113683FE1ECEF911008E7D93 /* MockSerializer.swift */,
 			);
 			name = Mocks;
+			sourceTree = "<group>";
+		};
+		11A8F70F1ED58A6B00EA55FF /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				11A8F7101ED58A7D00EA55FF /* ConsoleSerializer.swift */,
+			);
+			name = Serializers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +359,7 @@
 				11E635231ED32D580031AFA5 /* Sport.swift in Sources */,
 				113684081ECF078C008E7D93 /* Build.swift in Sources */,
 				11A8F7001ED48C0300EA55FF /* Lap.swift in Sources */,
+				11A8F7111ED58A7D00EA55FF /* ConsoleSerializer.swift in Sources */,
 				11A8F70C1ED5858B00EA55FF /* TrainingCenterDatabase.swift in Sources */,
 				11E6351F1ED32C610031AFA5 /* SensorState.swift in Sources */,
 				113683F81ECEF383008E7D93 /* AbstractSource.swift in Sources */,
