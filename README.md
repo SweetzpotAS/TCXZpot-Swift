@@ -56,6 +56,13 @@ db.serialize(to: serializer)
 serializer.save(toPath : "path/to/file") // Can throw SerializationError.fileNotSaved
 ```
 
+### Get it from CocoaPods
+
+Add the following line to your Podfile:
+
+``` ruby
+pod 'TCXZpot-Swift', '~> 0.1.0'
+```
 
 ## License
 
