@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TCXZpot-Swift"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A fluent API to create TCX files "
 
   # This description is used to generate tags and improve search results.
