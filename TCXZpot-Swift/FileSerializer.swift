@@ -22,6 +22,8 @@ import Foundation
 public class FileSerializer : Serializer {
     private var lines : [String] = []
     
+    public init() {}
+    
     public func print(line: String) {
         lines.append(line)
     }

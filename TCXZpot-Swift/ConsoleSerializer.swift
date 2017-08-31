@@ -20,6 +20,8 @@
 import Foundation
 
 public struct ConsoleSerializer : Serializer {
+    public init() {}
+    
     public func print(line: String) {
         show(line)
     }
